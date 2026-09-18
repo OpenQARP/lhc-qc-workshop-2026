@@ -40,10 +40,29 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
+On a Linux terminal, activate the environment with: 
+
+```bash
+source lhc_env/bin/activate
+```
+
 On Windows PowerShell, activate the environment with:
 
 ```powershell
 lhc_env\Scripts\Activate.ps1
+```
+
+Note -- you may need first to enable execution policy in PowerShell with:
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+```
+
+We install the requirements:
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 ```
 
 Then start JupyterLab:
