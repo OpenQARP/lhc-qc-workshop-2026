@@ -35,9 +35,6 @@ git clone https://github.com/OpenQARP/lhc-qc-workshop-2026.git
 cd lhc-qc-workshop-2026
 
 python -m venv lhc_env
-source lhc_env/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
 ```
 
 On a Linux terminal, activate the environment with: 
